@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "89410627317",
+    "firebase_url": "https://controls-48033.firebaseio.com",
+    "project_id": "controls-48033",
+    "storage_bucket": "controls-48033.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89410627317:android:e2c7160bcc97b81c2487bc",
+        "android_client_info": {
+          "package_name": "com.example.controls"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89410627317-ge9rejvcq2j50ape2s4hrhf863e6d96b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSxWy6_NimZY-4r0iHjQOd7C5BRNy0wdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89410627317-ge9rejvcq2j50ape2s4hrhf863e6d96b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

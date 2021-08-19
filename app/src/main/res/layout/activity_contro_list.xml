@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".View.ControList">
+
+    <TextView
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Toque el control que desea editar"
+        android:textAlignment="center"
+        android:textColor="#fafafa"
+        android:textSize="19dp"
+        android:textStyle="normal" />
+
+
+    <ImageButton
+        android:id="@+id/searchButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#fafafa"
+        android:backgroundTintMode="multiply"
+        android:foregroundTint="#0D0B0B"
+        android:foregroundTintMode="multiply"
+        android:tint="#0D0B0B"
+        android:tintMode="multiply"
+        app:srcCompat="@drawable/ic_search" />
+
+    <EditText
+        android:id="@+id/searchText"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginLeft="86dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:background="#fafafa"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Buscar Controles Por Rut"
+        android:inputType="text"
+        android:shadowColor="#4A4D51"
+        android:textColor="#4A4D51"
+        android:textColorHighlight="#4A4D51"
+        android:textColorHint="#4A4D51"
+        android:textColorLink="#4A4D51"
+        android:textSize="14dp"
+        />
+
+
+    <ListView
+        android:id="@+id/controlListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="20dp"
+        android:background="#fafafa"
+        android:cacheColorHint="#fff"
+        android:padding="10dp" />
+
+</RelativeLayout>

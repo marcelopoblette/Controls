@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:background="@drawable/background"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColorHint="#fafafa"
+                android:textColor="#fafafa"
+                android:textSize="15dp"
+                android:text="Rut Paciente"/>
+
+            <TextView
+                android:id="@+id/rut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#fafafa"
+                android:textColor="#fafafa"
+                android:textStyle="normal"
+                android:textSize="16dp"
+                android:text="Rut"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#fafafa"
+                android:textColor="#fafafa"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Nombre Paciente"/>
+
+            <TextView
+                android:id="@+id/fullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#fafafa"
+                android:textColor="#fafafa"
+                android:textStyle="normal"
+                android:textSize="16dp"
+                android:text="Nombre Paciente"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#fafafa"
+                android:textColor="#fafafa"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Fecha Y Hora del Control"/>
+
+            <TextView
+                android:id="@+id/dateTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#fafafa"
+                android:textColor="#fafafa"
+                android:textStyle="normal"
+                android:textSize="16dp"
+                android:text="Fecha y Hora "/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#fafafa"
+                android:textColor="#fafafa"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Presión Arterial"/>
+
+            <TextView
+                android:id="@+id/bloodPresure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#fafafa"
+                android:textColor="#fafafa"
+                android:textStyle="normal"
+                android:textSize="16dp"
+                android:text="Presión Arterial"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#fafafa"
+                android:textColor="#fafafa"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Frecuencia Cardiaca"
+                />
+
+            <TextView
+                android:id="@+id/heartFreq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#fafafa"
+                android:textColor="#fafafa"
+                android:textStyle="normal"
+                android:textSize="16dp"
+                android:text="Frecuencia Cardiaca"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#fafafa"
+                android:textColor="#fafafa"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="saturación"
+                />
+
+            <TextView
+                android:id="@+id/saturation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#fafafa"
+                android:textColor="#fafafa"
+                android:textStyle="normal"
+                android:textSize="16dp"
+                android:text="saturación"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#fafafa"
+                android:textColor="#fafafa"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Frecuencia Respiratoria"/>
+
+
+
+            <TextView
+                android:id="@+id/breathFreq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#fafafa"
+                android:textColor="#fafafa"
+                android:textStyle="normal"
+                android:textSize="16dp"
+                android:text="Frecuencia Respiratoria"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#fafafa"
+                android:textColor="#fafafa"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Temperatura"/>
+
+            <TextView
+                android:id="@+id/temperture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#fafafa"
+                android:textColor="#fafafa"
+                android:textStyle="normal"
+                android:textSize="16dp"
+                android:text="Temperatura"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#fafafa"
+                android:textColor="#fafafa"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="HemoGlucoTest"/>
+
+            <TextView
+                android:id="@+id/hgt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#fafafa"
+                android:textColor="#fafafa"
+                android:textStyle="normal"
+                android:textSize="16dp"
+                android:text="HemoGlucoTest"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#fafafa"
+                android:textColor="#fafafa"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Observaciones"/>
+
+            <TextView
+                android:id="@+id/notes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#fafafa"
+                android:textColor="#fafafa"
+                android:textStyle="normal"
+                android:textSize="16dp"
+                android:text="Observaciones"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

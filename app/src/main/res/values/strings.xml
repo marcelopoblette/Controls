@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Controls</string>
+    <string name="saturation">Saturación</string>
+    <string name="pa">Presión Arterial</string>
+    <string name="fr">Frencuencia Respiratoria</string>
+    <string name="t">Temperatura</string>
+    <string name="pressBackAgain">Presione atrás para cerrar la Aplicación</string>
+</resources>

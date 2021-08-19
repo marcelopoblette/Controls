@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.controls">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".Controller.Persistance"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Control S"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity
+            android:name=".View.ControlSearch"
+            android:label="Buscar Controles" ></activity>
+        <activity
+            android:name=".View.ControList"
+            android:label="Lista de Controles"
+
+            android:screenOrientation="portrait">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
+        </activity>
+        <activity
+            android:name=".View.ControlEdit"
+            android:label="Administración Control"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.ControlCreate"
+            android:label="Registro de Control"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.ForgotPassword"
+            android:label="Recuperar Contraseña"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Welcome"
+            android:label="Inicio"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.RegisterUser"
+            android:label="Registro Usuario"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

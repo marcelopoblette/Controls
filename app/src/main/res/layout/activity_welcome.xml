@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+ >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="300dp"
+        android:background="@drawable/background"
+
+        tools:context=".View.Welcome">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="46dp"
+            app:layout_constraintBottom_toTopOf="@+id/greeting"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.088"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/greeting"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="110dp"
+            android:fontFamily="casual"
+            android:text=""
+            android:textColor="#fafafa"
+            android:textAlignment="viewStart"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/welcomeText1"
+            android:layout_width="320dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="120dp"
+            android:textColorHint="#fafafa"
+            android:textColor="#fafafa"
+            android:fontFamily="casual"
+            android:text="Agregar un Control "
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/greeting" />
+
+        <ImageButton
+            android:id="@+id/addControl"
+            android:layout_width="31dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="30dp"
+            android:background="#606166"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintTop_toBottomOf="@+id/greeting"
+            app:srcCompat="@drawable/ic_add" />
+
+        <TextView
+            android:id="@+id/watchText"
+            android:layout_width="320dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:textColorHint="#fafafa"
+            android:textColor="#fafafa"
+            android:fontFamily="casual"
+            android:text="Editar Controles"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/welcomeText1" />
+
+        <ImageButton
+            android:id="@+id/editControls"
+            android:layout_width="31dp"
+            android:layout_height="31dp"
+            android:layout_marginEnd="30dp"
+            android:background="#606166"
+            app:layout_constraintTop_toBottomOf="@+id/addControl"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@id/watchText"
+            app:srcCompat="@drawable/ic_edit" />
+
+        <TextView
+            android:id="@+id/searchText"
+            android:layout_width="320dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="casual"
+            android:text="Ver Controles"
+            android:textColorHint="#fafafa"
+            android:textColor="#fafafa"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/watchText" />
+
+        <ImageButton
+            android:id="@+id/searchControl"
+            android:layout_width="31dp"
+            android:layout_height="31dp"
+            android:layout_marginEnd="30dp"
+            android:background="#606166"
+            app:layout_constraintTop_toBottomOf="@+id/editControls"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@id/searchText"
+            app:srcCompat="@drawable/ic_search" />
+
+
+
+        <TextView
+            android:id="@+id/logoutText"
+            android:layout_width="320dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="casual"
+            android:textColorHint="#fafafa"
+            android:textColor="#fafafa"
+            android:text="Cerrar Sesión"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/searchText" />
+
+        <ImageButton
+            android:id="@+id/logout"
+            android:layout_width="31dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="#606166"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/logoutText"
+            app:layout_constraintTop_toBottomOf="@+id/searchControl"
+            app:srcCompat="@drawable/ic_close_session" />
+
+        <!--    <Button-->
+        <!--        android:id="@+id/registerControl"-->
+        <!--        android:layout_width="300dp"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_marginTop="268dp"-->
+        <!--        android:backgroundTint="@color/common_google_signin_btn_text_light_disabled"-->
+        <!--        android:text="Registrar Control"-->
+        <!--        android:textSize="20dp"-->
+        <!--        android:textStyle="bold"-->
+        <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--        app:layout_constraintRight_toRightOf="parent"-->
+        <!--        app:layout_constraintTop_toBottomOf="@id/greeting" />-->
+
+        <!--    <Button-->
+        <!--        android:id="@+id/checkControls"-->
+        <!--        android:layout_width="300dp"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_marginTop="15dp"-->
+        <!--        android:backgroundTint="@color/common_google_signin_btn_text_light_disabled"-->
+        <!--        android:text="Revisar Controles "-->
+        <!--        android:textSize="20dp"-->
+        <!--        android:textStyle="bold"-->
+        <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--        app:layout_constraintRight_toRightOf="parent"-->
+        <!--        app:layout_constraintTop_toBottomOf="@id/registerControl" />-->
+
+        <!--    <Button-->
+        <!--        android:id="@+id/logout"-->
+        <!--        android:layout_width="300dp"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_marginTop="15dp"-->
+        <!--        android:layout_marginBottom="60dp"-->
+        <!--        android:backgroundTint="@color/common_google_signin_btn_text_light_disabled"-->
+        <!--        android:text="Cerrar Sesión"-->
+
+        <!--        android:textSize="20dp"-->
+        <!--        android:textStyle="bold"-->
+        <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--        app:layout_constraintRight_toRightOf="parent"-->
+        <!--        app:layout_constraintTop_toBottomOf="@id/checkControls" />-->
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
